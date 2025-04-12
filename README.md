@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-Streamline school management, class organization, and add students and faculty.<br>
+Streamline student management, class organization, and add students and faculty.<br>
 Seamlessly track attendance, assess performance, and provide feedback. <br>
 Access records, view marks, and communicate effortlessly.
 </h3>
@@ -14,7 +14,7 @@ Access records, view marks, and communicate effortlessly.
 
 # About
 
-The School Management System is a web-based application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to streamline school management, class organization, and facilitate communication between students, teachers, and administrators.
+The Student Management System is a web-based application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to streamline school management, class organization, and facilitate communication between students, teachers, and administrators.
 
 ## Features
 
@@ -55,9 +55,6 @@ npm start
 Create a file called .env in the backend folder.
 Inside it write this :
 
-```sh
-MONGO_URL = mongodb://127.0.0.1/school
-```
 If you are using MongoDB Compass you can use this database link but if you are using MongoDB Atlas then instead of this link write your own database link.
 
 Terminal 2: Setting Up Frontend
@@ -185,7 +182,5 @@ If the issue persists, feel free to contact me for further assistance.
 
 Don't forget to leave a star for this project if you found the solution helpful. Thank you!
 
-# Deployment
-* Render - server side
-* Netlify - client side
+
 
