@@ -40,17 +40,13 @@ The Student Management System is a web-based application built using the MERN (M
 
 # Installation
 
-```sh
-git clone https://github.com/Yogndrr/MERN-School-Management-System.git
-```
-Open 2 terminals in separate windows/tabs.
 
 Terminal 1: Setting Up Backend 
-```sh
+sh
 cd backend
 npm install
 npm start
-```
+
 
 Create a file called .env in the backend folder.
 Inside it write this :
@@ -58,11 +54,11 @@ Inside it write this :
 If you are using MongoDB Compass you can use this database link but if you are using MongoDB Atlas then instead of this link write your own database link.
 
 Terminal 2: Setting Up Frontend
-```sh
+
 cd frontend
 npm install
 npm start
-```
+
 Now, navigate to `localhost:3000` in your browser. 
 The Backend API will be running at `localhost:5000`.
 <br>
